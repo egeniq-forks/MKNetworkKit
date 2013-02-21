@@ -27,6 +27,8 @@
 
 #import <objc/runtime.h>
 
+#import "MKNetworkKit.h"
+
 static MKNetworkEngine *DefaultEngine;
 static char imageFetchOperationKey;
 
